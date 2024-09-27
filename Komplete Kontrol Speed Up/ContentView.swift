@@ -7,19 +7,45 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Button(action: signIn)
-            {
-                Text("Test")
-            }
+enum SupportedApplications: String
+{
+    case KompleteKontrol = "KompleteKontrol"
+    case Maschine = "Maschine"
+}
+
+struct ContentView: View
+{
+    var body: some View
+    {
+        HSplitView
+        {
+            ItemView(content: "Komplete Kontrol", type: SupportedApplications.KompleteKontrol).padding()
+            ItemView(content: "Maschine", type: SupportedApplications.Maschine).padding()
         }
-        .padding()
+    }
+}
+
+struct ItemView: View
+{
+    let content: String
+    let type: SupportedApplications
+    var body: some View
+    {
+        VStack
+        {
+            Spacer()
+            HStack
+            {
+                Spacer()
+                VStack
+                {
+                    Image(type.rawValue).resizable().frame(width: 100, height: 100)
+                    Text(content).padding()
+                }
+                Spacer()
+            }
+            Spacer()
+        }
     }
 }
 

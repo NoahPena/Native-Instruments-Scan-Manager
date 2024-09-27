@@ -11,7 +11,7 @@ import SwiftUI
 struct Komplete_Kontrol_Speed_UpApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().frame(width: 800, height: 600)
         }
     }
 }
