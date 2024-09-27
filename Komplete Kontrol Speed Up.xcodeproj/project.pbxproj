@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F47251022CA74F5600AE993E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47250E82CA74F5500AE993E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47250EF2CA74F5500AE993E;
+			remoteInfo = "Komplete Kontrol Speed Up";
+		};
+		F472510C2CA74F5600AE993E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47250E82CA74F5500AE993E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47250EF2CA74F5500AE993E;
+			remoteInfo = "Komplete Kontrol Speed Up";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F47250F02CA74F5500AE993E /* Komplete Kontrol Speed Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Komplete Kontrol Speed Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47251012CA74F5600AE993E /* Komplete Kontrol Speed UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Komplete Kontrol Speed UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472510B2CA74F5600AE993E /* Komplete Kontrol Speed UpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Komplete Kontrol Speed UpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F47250F22CA74F5500AE993E /* Komplete Kontrol Speed Up */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Komplete Kontrol Speed Up";
+			sourceTree = "<group>";
+		};
+		F47251042CA74F5600AE993E /* Komplete Kontrol Speed UpTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Komplete Kontrol Speed UpTests";
+			sourceTree = "<group>";
+		};
+		F472510E2CA74F5600AE993E /* Komplete Kontrol Speed UpUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Komplete Kontrol Speed UpUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F47250ED2CA74F5500AE993E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47250FE2CA74F5600AE993E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47251082CA74F5600AE993E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F47250E72CA74F5500AE993E = {
+			isa = PBXGroup;
+			children = (
+				F47250F22CA74F5500AE993E /* Komplete Kontrol Speed Up */,
+				F47251042CA74F5600AE993E /* Komplete Kontrol Speed UpTests */,
+				F472510E2CA74F5600AE993E /* Komplete Kontrol Speed UpUITests */,
+				F47250F12CA74F5500AE993E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F47250F12CA74F5500AE993E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47250F02CA74F5500AE993E /* Komplete Kontrol Speed Up.app */,
+				F47251012CA74F5600AE993E /* Komplete Kontrol Speed UpTests.xctest */,
+				F472510B2CA74F5600AE993E /* Komplete Kontrol Speed UpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F47250EF2CA74F5500AE993E /* Komplete Kontrol Speed Up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47251152CA74F5600AE993E /* Build configuration list for PBXNativeTarget "Komplete Kontrol Speed Up" */;
+			buildPhases = (
+				F47250EC2CA74F5500AE993E /* Sources */,
+				F47250ED2CA74F5500AE993E /* Frameworks */,
+				F47250EE2CA74F5500AE993E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F47250F22CA74F5500AE993E /* Komplete Kontrol Speed Up */,
+			);
+			name = "Komplete Kontrol Speed Up";
+			packageProductDependencies = (
+			);
+			productName = "Komplete Kontrol Speed Up";
+			productReference = F47250F02CA74F5500AE993E /* Komplete Kontrol Speed Up.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F47251002CA74F5600AE993E /* Komplete Kontrol Speed UpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47251182CA74F5600AE993E /* Build configuration list for PBXNativeTarget "Komplete Kontrol Speed UpTests" */;
+			buildPhases = (
+				F47250FD2CA74F5600AE993E /* Sources */,
+				F47250FE2CA74F5600AE993E /* Frameworks */,
+				F47250FF2CA74F5600AE993E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F47251032CA74F5600AE993E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F47251042CA74F5600AE993E /* Komplete Kontrol Speed UpTests */,
+			);
+			name = "Komplete Kontrol Speed UpTests";
+			packageProductDependencies = (
+			);
+			productName = "Komplete Kontrol Speed UpTests";
+			productReference = F47251012CA74F5600AE993E /* Komplete Kontrol Speed UpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F472510A2CA74F5600AE993E /* Komplete Kontrol Speed UpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F472511B2CA74F5600AE993E /* Build configuration list for PBXNativeTarget "Komplete Kontrol Speed UpUITests" */;
+			buildPhases = (
+				F47251072CA74F5600AE993E /* Sources */,
+				F47251082CA74F5600AE993E /* Frameworks */,
+				F47251092CA74F5600AE993E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F472510D2CA74F5600AE993E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F472510E2CA74F5600AE993E /* Komplete Kontrol Speed UpUITests */,
+			);
+			name = "Komplete Kontrol Speed UpUITests";
+			packageProductDependencies = (
+			);
+			productName = "Komplete Kontrol Speed UpUITests";
+			productReference = F472510B2CA74F5600AE993E /* Komplete Kontrol Speed UpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F47250E82CA74F5500AE993E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F47250EF2CA74F5500AE993E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F47251002CA74F5600AE993E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F47250EF2CA74F5500AE993E;
+					};
+					F472510A2CA74F5600AE993E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F47250EF2CA74F5500AE993E;
+					};
+				};
+			};
+			buildConfigurationList = F47250EB2CA74F5500AE993E /* Build configuration list for PBXProject "Komplete Kontrol Speed Up" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F47250E72CA74F5500AE993E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F47250F12CA74F5500AE993E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F47250EF2CA74F5500AE993E /* Komplete Kontrol Speed Up */,
+				F47251002CA74F5600AE993E /* Komplete Kontrol Speed UpTests */,
+				F472510A2CA74F5600AE993E /* Komplete Kontrol Speed UpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F47250EE2CA74F5500AE993E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47250FF2CA74F5600AE993E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47251092CA74F5600AE993E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F47250EC2CA74F5500AE993E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47250FD2CA74F5600AE993E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47251072CA74F5600AE993E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F47251032CA74F5600AE993E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47250EF2CA74F5500AE993E /* Komplete Kontrol Speed Up */;
+			targetProxy = F47251022CA74F5600AE993E /* PBXContainerItemProxy */;
+		};
+		F472510D2CA74F5600AE993E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47250EF2CA74F5500AE993E /* Komplete Kontrol Speed Up */;
+			targetProxy = F472510C2CA74F5600AE993E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F47251132CA74F5600AE993E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F47251142CA74F5600AE993E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F47251162CA74F5600AE993E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Komplete Kontrol Speed Up/Komplete_Kontrol_Speed_Up.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Komplete Kontrol Speed Up/Preview Content\"";
+				DEVELOPMENT_TEAM = WXV43587HB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpena.Komplete-Kontrol-Speed-Up";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F47251172CA74F5600AE993E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Komplete Kontrol Speed Up/Komplete_Kontrol_Speed_Up.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Komplete Kontrol Speed Up/Preview Content\"";
+				DEVELOPMENT_TEAM = WXV43587HB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpena.Komplete-Kontrol-Speed-Up";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F47251192CA74F5600AE993E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXV43587HB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpena.Komplete-Kontrol-Speed-UpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Komplete Kontrol Speed Up.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Komplete Kontrol Speed Up";
+			};
+			name = Debug;
+		};
+		F472511A2CA74F5600AE993E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXV43587HB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpena.Komplete-Kontrol-Speed-UpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Komplete Kontrol Speed Up.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Komplete Kontrol Speed Up";
+			};
+			name = Release;
+		};
+		F472511C2CA74F5600AE993E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXV43587HB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpena.Komplete-Kontrol-Speed-UpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Komplete Kontrol Speed Up";
+			};
+			name = Debug;
+		};
+		F472511D2CA74F5600AE993E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXV43587HB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpena.Komplete-Kontrol-Speed-UpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Komplete Kontrol Speed Up";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F47250EB2CA74F5500AE993E /* Build configuration list for PBXProject "Komplete Kontrol Speed Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47251132CA74F5600AE993E /* Debug */,
+				F47251142CA74F5600AE993E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47251152CA74F5600AE993E /* Build configuration list for PBXNativeTarget "Komplete Kontrol Speed Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47251162CA74F5600AE993E /* Debug */,
+				F47251172CA74F5600AE993E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47251182CA74F5600AE993E /* Build configuration list for PBXNativeTarget "Komplete Kontrol Speed UpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47251192CA74F5600AE993E /* Debug */,
+				F472511A2CA74F5600AE993E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F472511B2CA74F5600AE993E /* Build configuration list for PBXNativeTarget "Komplete Kontrol Speed UpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F472511C2CA74F5600AE993E /* Debug */,
+				F472511D2CA74F5600AE993E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F47250E82CA74F5500AE993E /* Project object */;
+}
