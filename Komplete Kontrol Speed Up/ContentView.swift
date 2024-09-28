@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-enum SupportedApplications: String
+
+
+enum SupportedApplications: String, CaseIterable
 {
     case KompleteKontrol = "KompleteKontrol"
     case Maschine = "Maschine"
@@ -19,8 +21,22 @@ struct ContentView: View
     {
         HSplitView
         {
-            ItemView(content: "Komplete Kontrol", type: SupportedApplications.KompleteKontrol).padding()
-            ItemView(content: "Maschine", type: SupportedApplications.Maschine).padding()
+            ForEach(SupportedApplications.allCases, id:\.self)
+            {
+                ItemView(content: $0.rawValue, type: $0, isEnabled: isApplicationInstalled(type: $0), toggle: isScanAppEnabled(type: $0))
+            }
+        }
+    }
+}
+
+struct NotEnabledView: View
+{
+    var body: some View
+    {
+        ZStack
+        {
+            RoundedRectangle(cornerRadius: 20).frame(width: 100, height: 100)
+            Text("Disabled").colorInvert()
         }
     }
 }
@@ -29,29 +45,59 @@ struct ItemView: View
 {
     let content: String
     let type: SupportedApplications
-    var body: some View
+    let isEnabled: Bool
+    @State var toggle: Bool
+    
+    var toggleOnChange: Binding<Bool>
     {
-        VStack
+        .init
         {
-            Spacer()
-            HStack
-            {
-                Spacer()
-                VStack
-                {
-                    Image(type.rawValue).resizable().frame(width: 100, height: 100)
-                    Text(content).padding()
-                }
-                Spacer()
-            }
-            Spacer()
+            return toggle
+        }
+        set:
+        {
+            newValue in
+            processScanApp(type: type, enableScanApp: newValue)
+            toggle = newValue
         }
     }
-}
-
-func signIn()
-{
-    print("Hello")
+    
+    var body: some View
+    {
+        ZStack
+        {
+            VStack
+            {
+                Spacer()
+                HStack
+                {
+                    Spacer()
+                    VStack
+                    {
+                        Image(type.rawValue).resizable().frame(width: 100, height: 100)
+                        Text(content).padding()
+                        HStack
+                        {
+                            Text("Disabled")
+                            Toggle(isOn: toggleOnChange)
+                            {
+                            }.toggleStyle(.switch).disabled(!isEnabled)
+                            Text("Enabled")
+                        }
+                    }
+                    Spacer()
+                }
+                Spacer()
+            }.blur(radius: (isEnabled) ? 0 : 2)
+            
+            if !isEnabled
+            {
+                NotEnabledView()
+            }
+        }
+    }
+    
+    
 }
 
 #Preview {

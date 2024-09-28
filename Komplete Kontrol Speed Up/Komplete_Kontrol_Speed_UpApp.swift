@@ -11,7 +11,7 @@ import SwiftUI
 struct Komplete_Kontrol_Speed_UpApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().frame(width: 800, height: 600)
+            ContentView().frame(width: 800, height: 600).navigationTitle(Text("Komplete Kontrol Speed Up"))
         }
     }
 }
