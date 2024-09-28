@@ -75,7 +75,7 @@ struct ItemView: View
                     VStack
                     {
                         Image(type.rawValue).resizable().frame(width: 100, height: 100)
-                        Text(content).padding()
+                        Text(content + " ScanApp").padding()
                         HStack
                         {
                             Text("Disabled")
