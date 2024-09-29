@@ -74,20 +74,10 @@ func isScanAppEnabled(type: SupportedApplications) -> Bool
 
 func isApplicationInstalled(type: SupportedApplications) -> Bool
 {
-    var returnValue: Bool = false
+    let scanAppDirectory: String = getScanAppDirectory(type: type)
+    let scanAppName: String = getScanAppFileName(type: type)
     
-    switch type
-    {
-    case SupportedApplications.KompleteKontrol:
-        returnValue = FileManager.default.fileExists(atPath: String(DEFAULT_KOMPLETE_KONTROL_SCAN_APP_DIRECTORY + SCAN_APP_NAME)) || FileManager.default.fileExists(atPath: String(DEFAULT_KOMPLETE_KONTROL_SCAN_APP_DIRECTORY + CHANGED_SCAN_APP_NAME))
-        break
-        
-    case SupportedApplications.Maschine:
-        returnValue = FileManager.default.fileExists(atPath: DEFAULT_MASCHINE_SCAN_APP_DIRECTORY + SCAN_APP_NAME) || FileManager.default.fileExists(atPath: String(DEFAULT_MASCHINE_SCAN_APP_DIRECTORY + CHANGED_SCAN_APP_NAME))
-        break
-    }
-    
-    return returnValue
+    return FileManager.default.fileExists(atPath: String(scanAppDirectory + scanAppName)) || FileManager.default.fileExists(atPath: String(scanAppDirectory + CHANGED_SCAN_APP_NAME))
 }
 
 func processScanApp(type: SupportedApplications, enableScanApp: Bool)
