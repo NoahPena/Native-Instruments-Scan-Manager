@@ -1,9 +1,15 @@
 
+<br />
+<div align="center">
+   <img src="https://github.com/NoahPena/Native-Instruments-Scan-Manager/blob/main/Komplete%20Kontrol%20Speed%20Up/Assets.xcassets/AppIcon.appiconset/AppIcon_512.png" alt="Logo" width="80" height="80">
+
 # Native Instruments Scan Manager
 
 A simple application for enabling/disabling the Komplete Kontrol and Maschine Scanning functionality
 
 ![](https://github.com/NoahPena/Native-Instruments-Scan-Manager/blob/main/AppScreenshot.png)
+
+</div>
 
 ## Description
 
