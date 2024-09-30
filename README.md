@@ -3,7 +3,7 @@
 
 A simple application for enabling/disabling the Komplete Kontrol and Maschine Scanning functionality
 
-![](https://github.com/NoahPena/AbletonTagBackup/blob/main/AppScreenshot.png)
+![](https://github.com/NoahPena/Native-Instruments-Scan-Manager/blob/main/AppScreenshot.png)
 
 ## Description
 
