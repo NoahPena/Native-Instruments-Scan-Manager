@@ -50,6 +50,7 @@ noahpenamusic@gmail.com
 
 ## Version History
 
+* 1.1
+    * Added Support for Komplete Kontrol 2 and Maschine 3
 * 1.0
     * Initial Release
-
